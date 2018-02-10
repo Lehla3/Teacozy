@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.blackstripe {
+  background-image: url(../resources/img-mission-background.jpg);
+  height: 700px;
+  width: 1000px;
+}
+img {
+  height: 200px;
+  width: 300px;
+}
+.teaofmonth {
+  display: flex;
+}
+.locations {
+  background-image: url(../resources/img-locations-background.jpg.crdownload);
+  display: flex;
+}
+.loc {
+  height: 300px;
+  width: 300px;
+}
+.downtown {
+  background-color: black;
+}
