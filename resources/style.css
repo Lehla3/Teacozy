@@ -4,21 +4,51 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  text-align: center;
 }
-
-.blackstripe {
+.logo {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+.logo img {
+  height: 50px;
+  width: 130px;
+}
+a {
+  color: seashell;
+}
+li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: underline;
+}
+#mission {
   background-image: url(../resources/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
   height: 700px;
   width: 1000px;
+}
+.blackstripe {
+  background-color: black;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  z-index: 1;
 }
 img {
   height: 200px;
   width: 300px;
 }
-.teaofmonth {
+#teaofmonth {
   display: flex;
 }
-.locations {
+#locations {
   background-image: url(../resources/img-locations-background.jpg.crdownload);
   display: flex;
 }
