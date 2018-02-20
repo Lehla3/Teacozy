@@ -1,3 +1,4 @@
+
 .box {
   border: 2px solid pink;
 }
@@ -20,6 +21,8 @@ body {
   border-bottom: 1px solid seashell;
   padding: 10px 10px 9px 10px;
   z-index: 2;
+  margin-top: 0;
+  margin-left: 0;
 }
 .logo img {
   height: 50px;
